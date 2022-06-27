@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-dir {
+  direction: ltr;
+}
+
+.section-height {
+  min-height: 90vh;
+}
+.footer-height {
+  height: 10vh;
+}
+
+@layer base {
+  body,
+  html {
+    @apply bg-gray-50 text-black !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-heading;
+  }
+  .btn-filter {
+    @apply mr-2 min-w-[5rem] cursor-pointer rounded-md border-2 border-heading bg-transparent py-2 px-4 text-sm font-bold text-black active:bg-heading active:text-black md:mr-4 lg:mr-8;
+  }
+  .active {
+    @apply bg-heading text-white;
+  }
+}
+
+.imageSpan {
+  background-image: url('/images/services2.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.rtl {
+  direction: rtl;
+}
