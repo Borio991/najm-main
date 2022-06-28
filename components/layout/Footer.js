@@ -70,7 +70,7 @@ export default function Footer() {
               {' '}
               {en
                 ? 'Events and celebrations services'
-                : 'خدمات اقامه الفاعليات و الاحتفالات '}
+                : 'خدمات اقامه الفعاليات و الاحتفالات '}
             </a>
           </Link>
         </div>

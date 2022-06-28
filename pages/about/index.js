@@ -74,11 +74,7 @@ export default function About() {
                 <h2 className="mb-3  ml-4 mt-4 w-5/6 text-3xl font-bold tracking-wide text-slate-700 underline underline-offset-8">
                   {en ? 'Vision 2030' : 'رؤية 2030'}
                 </h2>
-                <p className="mx-4  w-5/6 text-lg leading-6 tracking-wider">
-                  {en
-                    ? 'Under the leadership of the Custodian of the Two Holy Mosques, Vision 2030 was launched, a roadmap drawn up by His Royal Highness the Crown Prince, to harness the strengths God bestowed upon us – our strategic position, investment power and place at the center of Arab and Islamic worlds. The full attention of the Kingdom, and our Leadership, is on harnessing our potential to achieve our ambitions.'
-                    : 'بدعم ورعاية خادم الحرمين الشريفين حفظه الله، أُطلقت رؤية المملكة 2030، وهي رؤية سمو ولي العهد لمستقبل هذا الوطن العظيم، والتي تسعى لاستثمار مكامن قوّتنا التي حبانا الله بها، من موقع استراتيجي متميز، وقوة استثمارية رائدة، وعمق عربيّ وإسلاميّ، حيث تولي القيادة لذلك كل الاهتمام، وتسخّر كل الإمكانات لتحقيق الطموحات.'}
-                </p>{' '}
+
                 <p className="mx-4  mt-2 w-5/6 text-lg leading-6 tracking-wider">
                   {en
                     ? 'Our vision and ambitions are in line with the Kingdom’s 2030 vision, which is the vision of His Highness the Crown Prince, may God protect him, and which is supported and patronized by the Custodian of the Two Holy Mosques, may God protect him. From a distinguished strategic location, a leading investment force, and an Arab and Islamic depth, where the leadership pays all attention to this, and harnesses all capabilities to achieve ambitions.'
